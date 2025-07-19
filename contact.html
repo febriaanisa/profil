@@ -65,15 +65,13 @@
 <div class="container">
   <div class="box">
     <h2>Hubungi Saya</h2>
-    <form id="contact-form">
-      <input type="text" id="name" placeholder="Nama Anda" required>
-      <input type="text" id="phone" placeholder="Nomor Telepon" required>
-      <input type="email" id="email" placeholder="Email Anda" required>
-      <textarea id="message" placeholder="Pesan Anda" rows="4" required></textarea>
-      <button type="submit">Kirim</button>
-      <div class="success" id="success-message" style="display:none;">✔ Pesan berhasil dikirim!</div>
-      <div class="error" id="error-message" style="display:none;">✖ Gagal mengirim pesan.</div>
-    </form>
+    <form action="https://script.google.com/macros/s/AKfycbynU8AOnaJLDruGnHVdgLuEoXv1rZOILpDEtStm041B5K8lMv3Uvh3GH9shHJYVWNrmCQ/exec" method="POST">
+  <label>Nama: <input type="text" name="name" required></label><br>
+  <label>No. Telepon: <input type="text" name="phone" required></label><br>
+  <label>Email: <input type="email" name="email" required></label><br>
+  <label>Pesan:<br><textarea name="message" required></textarea></label><br>
+  <button type="submit">Kirim</button>
+</form>
     <p><br><a href="/">Home</a> | <a href="/blog/index.html">Blog</a> | <a href="/about.html">About</a></p>
   </div>
 </div>
