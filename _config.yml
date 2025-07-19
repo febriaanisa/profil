@@ -1,0 +1,9 @@
+title: Febria Anisaningrum
+email: febria@example.com
+description: >- 
+  Belajar dan Bekerja
+baseurl: "" # gunakan "" jika pakai root domain GitHub Pages
+url: "https://febriaanisa.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
