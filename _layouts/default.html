@@ -6,25 +6,32 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+
   <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a> |
-      <a href="{{ '/blog' | relative_url }}">Blog</a> |
-      <a href="{{ '/about' | relative_url }}">About</a> |
-      <a href="{{ '/contact' | relative_url }}">Contact</a>
-    </nav>
+    <div class="container">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> |
+        <a href="{{ '/blog' | relative_url }}">Blog</a> |
+        <a href="{{ '/about' | relative_url }}">About</a> |
+        <a href="{{ '/contact' | relative_url }}">Contact</a>
+      </nav>
+    </div>
   </header>
-    <main>
-            <div class="container">
-                <div class="box">
-                {{ content }}
-                </div>
-            </div>
-    </main>
+
+  <main>
+    <div class="container">
+      <article class="post-body">
+        {{ content }}
+      </article>
+    </div>
+  </main>
 
   <footer>
-    <p>© 2025 Febria Anisaningrum</p>
+    <div class="container">
+      <p>© 2025 Febria Anisaningrum</p>
+    </div>
   </footer>
+
 </body>
 </html>
