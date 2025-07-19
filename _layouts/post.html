@@ -7,22 +7,30 @@
 </head>
 <body>
   <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a> |
-      <a href="{{ '/blog' | relative_url }}">Blog</a> |
-      <a href="{{ '/about' | relative_url }}">About</a>
-    </nav>
+    <div class="container">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> |
+        <a href="{{ '/blog' | relative_url }}">Blog</a> |
+        <a href="{{ '/about' | relative_url }}">About</a>
+      </nav>
+    </div>
   </header>
 
-  <article>
-    <h1>{{ page.title }}</h1>
-    <p><small>Diposting pada {{ page.date | date: "%d %B %Y" }}</small></p>
-    {{ content }}
-  </article>
+  <main>
+    <div class="container">
+      <article class="post-body">
+        <h1>{{ page.title }}</h1>
+        <p><small>Diposting pada {{ page.date | date: "%d %B %Y" }}</small></p>
+        {{ content }}
+      </article>
+    </div>
+  </main>
 
   <footer>
-    <p>© 2025 Febria Anisaningrum</p>
+    <div class="container">
+      <p>© 2025 Febria Anisaningrum</p>
+    </div>
   </footer>
 </body>
 </html>
