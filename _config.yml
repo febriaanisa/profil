@@ -4,6 +4,7 @@ description: >-
   Belajar dan Bekerja
 baseurl: "" # gunakan "" jika pakai root domain GitHub Pages
 url: "https://febriaanisa.github.io"
+permalink: /:title/
 theme: minima
 plugins:
   - jekyll-feed
