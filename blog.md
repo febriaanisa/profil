@@ -3,8 +3,6 @@ layout: default
 title: Blog
 ---
 
-<h1>{{ page.title }}</h1>
-
 <ul>
   {% for post in site.posts %}
     <li>
