@@ -6,27 +6,28 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <nav>
-        <a href="{{ '/' | relative_url }}">Home</a> |
-        <a href="{{ '/blog' | relative_url }}">Blog</a> |
-        <a href="{{ '/about' | relative_url }}">About</a> |
-        <a href="{{ '/contact' | relative_url }}">Kontak</a>
-      </nav>
-    </div>
-  </header>
+ <header>
+  <div class="container">
+    <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a> |
+      <a href="{{ '/blog' | relative_url }}">Blog</a> |
+      <a href="{{ '/about' | relative_url }}">About</a> |
+      <a href="{{ '/contact' | relative_url }}">Kontak</a>
+    </nav>
+  </div>
+</header>
 
-  <main>
-    <div class="container">
-      <article class="post-body">
-        <h1>{{ page.title }}</h1>
-        <p><small>Diposting pada {{ page.date | date: "%d %B %Y" }}</small></p>
-        {{ content }}
-      </article>
-    </div>
-  </main>
+<main>
+  <div class="container">
+    <article class="post-body">
+      <!-- Tambahkan kelas "post-title" pada judul artikel -->
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p><small>Diposting pada {{ page.date | date: "%d %B %Y" }}</small></p>
+      {{ content }}
+    </article>
+  </div>
+</main>
 
   <footer>
     <div class="container">
