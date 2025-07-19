@@ -17,22 +17,38 @@ html, body {
 
 /* Header & Navbar (tanpa .container) */
 header {
-  background: #326fdd;
-  color: #fff;
-  padding: 15px 20px;
+  background-color: #326fdd;
+  color: white;
+  padding: 8px 20px;   /* Kurangi padding vertikal dari 15px ke 8px */
   text-align: center;
+  font-family: monospace;
+  max-width: 720px;    /* Batasi lebar */
+  margin: 0 auto;      /* Center di halaman */
+  border-radius: 0 0 15px 15px; /* opsional, supaya lebih estetik */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;     /* Lebih kecil dari default */
+  line-height: 1.2;
+}
+
+nav {
+  margin-top: 6px;     /* Sedikit jarak dari judul */
 }
 
 nav a {
-  color: #fff;
+  color: white;
+  margin: 0 8px;       /* Lebih rapat antar link */
   font-weight: bold;
-  margin: 0 10px;
+  font-size: 16px;     /* Sesuaikan ukuran font */
   text-decoration: none;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
+
 
 /* Footer (juga tanpa .container) */
 footer {
