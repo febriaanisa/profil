@@ -1,4 +1,4 @@
-/* Dasar body dan html */
+/* Dasar halaman */
 html, body {
   min-height: 100vh;
   margin: 0;
@@ -7,7 +7,7 @@ html, body {
   color: #0b1f4d;
 }
 
-/* Container pusat */
+/* Konten utama */
 .container {
   max-width: 720px;
   margin: 40px auto;
@@ -15,8 +15,8 @@ html, body {
   text-align: left;
 }
 
-/* Header dan footer */
-header, footer {
+/* Header & Navbar (tanpa .container) */
+header {
   background: #326fdd;
   color: #fff;
   padding: 15px 20px;
@@ -34,17 +34,43 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Judul */
+/* Footer (juga tanpa .container) */
+footer {
+  background: #326fdd;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+/* Judul halaman & artikel */
 h1, h3 {
   color: #0f3d91;
   margin-bottom: 0.5em;
 }
 
-/* Paragraf */
+/* Teks */
 p {
   font-size: 18px;
   line-height: 1.6;
   margin: 0.75em 0;
+}
+
+/* Gambar */
+img {
+  max-width: 80%;
+  border-radius: 20%;
+  margin: 15px 0;
+  display: block;
+}
+
+/* Link umum */
+a {
+  color: #326fdd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Daftar blog */
@@ -56,34 +82,18 @@ ul li {
   margin-bottom: 0.5em;
 }
 
-/* Link */
-a {
-  color: #326fdd;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Artikel / post body */
+/* Artikel / isi post */
 .post-body {
-  background: #fff;
+  background: white;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   font-family: monospace;
+  line-height: 1.7;
+  color: #222;
 }
 
-/* Gambar */
-img {
-  max-width: 80%;
-  border-radius: 20%;
-  margin: 15px 0;
-  display: block;
-}
-
-/* Kode */
+/* Kode block */
 pre {
   background: #1e1e1e;
   color: #d4d4d4;
@@ -105,8 +115,8 @@ code {
   font-size: 14px;
 }
 
-/* Syntax highlight sederhana */
+/* Highlight kode (opsional) */
 .token.keyword { color: #569cd6; font-weight: bold; }
-.token.string { color: #d69d85; }
+.token.string  { color: #d69d85; }
 .token.comment { color: #6a9955; font-style: italic; }
 .token.function { color: #dcdcaa; }
