@@ -52,16 +52,17 @@ nav a:hover {
 
 /* Footer (juga tanpa .container) */
 footer {
-  background: #326fdd;
+  background-color: #326fdd;
   color: white;
+  padding: 8px 20px;
   text-align: center;
-  padding: 10px 20px; /* Kurangi padding vertikal dari 15px ke 10px */
-  font-size: 14px; /* Lebih kecil untuk footer */
-  max-width: 720px; /* Batasi lebar footer sama seperti konten utama */
-  margin: 0 auto; /* Center footer */
-  border-radius: 0 0 12px 12px; /* Opsional, buat sudut bawah sedikit membulat */
-  box-sizing: border-box; /* Pastikan padding masuk hitungan lebar */
+  font-family: monospace;
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 15px 15px 0 0;
+  font-size: 14px;
 }
+
 
 
 /* Judul halaman & artikel */
