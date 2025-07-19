@@ -76,7 +76,7 @@ nav a:hover {
 footer {
   background-color: #326fdd;
   color: white;
-  padding: 8px 20px;
+  padding: 6px 20px; /* sedikit kecilkan padding vertikal */
   text-align: center;
   font-family: monospace;
   max-width: 720px;
@@ -84,6 +84,12 @@ footer {
   border-radius: 15px 15px 0 0;
   font-size: 14px;
 }
+
+footer p {
+  margin: 0;
+  line-height: 1.3;
+}
+
 
 /* Judul halaman & artikel */
 h1, h3 {
