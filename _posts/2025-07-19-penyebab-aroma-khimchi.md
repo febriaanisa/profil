@@ -6,6 +6,8 @@ date: 2025-07-19 10:00:00 +0700
 
 Kimchi, makanan tradisional Korea yang populer di seluruh dunia, dikenal dengan rasanya yang pedas, asam, dan tentu saja — **aroma khasnya yang menyengat**. Tapi mengapa kimchi bisa mengeluarkan bau seperti itu? Apakah itu berarti kimchi sudah basi? Yuk, kita bahas lebih dalam!
 
+![aroma kimchi]({{site.baseurl}}/assets/images/2025/07/aroma-kimchi.webp)
+
 ---
 
 ## 1. Proses Fermentasi Alami
