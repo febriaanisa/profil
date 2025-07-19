@@ -185,3 +185,17 @@ code {
 .token.string  { color: #d69d85; }
 .token.comment { color: #6a9955; font-style: italic; }
 .token.function { color: #dcdcaa; }
+
+ul {
+  list-style-type: none; /* hilangkan bullet default */
+  padding-left: 0;
+}
+
+ul li::before {
+  content: '•';  /* custom bullet, bisa diganti sesuai selera */
+  color: #326fdd;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
