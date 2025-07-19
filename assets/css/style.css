@@ -28,6 +28,20 @@ html, body {
   text-align: left;
 }
 
+/* Pembungkus khusus untuk isi artikel postingan blog */
+.post-body {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 720px;
+  margin: 40px auto;
+  font-family: monospace;
+  color: #222;
+  line-height: 1.7;
+  text-align: left;
+}
+
 /* Judul */
 h1, h3 {
   font-size: 24px;
@@ -87,6 +101,7 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
 /* Styling untuk blok kode */
 pre {
   background-color: #1e1e1e;
