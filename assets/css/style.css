@@ -17,7 +17,7 @@ html, body {
 
 /* Header & Navbar (tanpa .container) */
 header {
-  background-color: #326fdd;
+  background-color: #ffff;
   color: white;
   padding: 8px 20px;   /* Kurangi padding vertikal dari 15px ke 8px */
   text-align: center;
