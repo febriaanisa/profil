@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
- <header>
-  <div class="container">
-    <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a> |
-      <a href="{{ '/blog' | relative_url }}">Blog</a> |
-      <a href="{{ '/about' | relative_url }}">About</a> |
-      <a href="{{ '/contact' | relative_url }}">Kontak</a>
-    </nav>
-  </div>
-</header>
 
-<main>
-  <div class="container">
-    <article class="post-body">
-      <!-- Tambahkan kelas "post-title" pada judul artikel -->
-      <h1 class="post-title">{{ page.title }}</h1>
-      <p><small>Diposting pada {{ page.date | date: "%d %B %Y" }}</small></p>
-      {{ content }}
-    </article>
-  </div>
-</main>
+  <header>
+    <div class="container">
+      <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> |
+        <a href="{{ '/blog' | relative_url }}">Blog</a> |
+        <a href="{{ '/about' | relative_url }}">About</a> |
+        <a href="{{ '/contact' | relative_url }}">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article class="post-body">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p><small>Diposting pada {{ page.date | date: "%d %B %Y" }}</small></p>
+        {{ content }}
+      </article>
+
+      <!-- Komentar via Utterances -->
+      <section id="comments" style="margin-top: 40px;">
+        <script src="https://utteranc.es/client.js"
+                repo="febriaanisa/febriaanisa.github.io"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+        </script>
+      </section>
+    </div>
+  </main>
 
   <footer>
     <div class="container">
       <p>© 2025 Febria Anisaningrum</p>
     </div>
   </footer>
+
 </body>
 </html>
