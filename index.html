@@ -1,67 +1,113 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Febria Anisaningrum</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css" />
   <style>
-   html, body {
-  min-height: 100vh;
-  font-family: monospace;
-  margin: 0;
-  background-color: #f2f8ff;
-}
+    html, body {
+      min-height: 100vh;
+      font-family: monospace;
+      margin: 0;
+      background-color: #f2f8ff;
+    }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 60px 20px;
-}
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+      flex-wrap: wrap; /* biar bisa wrap di layar kecil */
+    }
 
-.box {
-  width: 100%;
-  max-width: 600px;
-  background-color: rgba(50, 115, 220, 0.15);
-  margin: 10px;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
+    .box {
+      width: 100%;
+      max-width: 600px;
+      background-color: rgba(50, 115, 220, 0.15);
+      margin: 10px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-sizing: border-box;
+    }
 
-h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
+    h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #0f3d91;
+    }
 
-p {
-  font-size: 18px;
-  margin: 5px 0;
-}
+    p {
+      font-size: 18px;
+      margin: 5px 0;
+      color: #0b1f4d;
+    }
 
-img {
-  border-radius: 20%;
-  max-width: 80%;
-  height: auto;
-  margin: 15px 0;
-}
+    img {
+      border-radius: 20%;
+      max-width: 80%;
+      height: auto;
+      margin: 15px 0;
+    }
 
+    /* Link styling */
+    p a {
+      color: #326fdd;
+      text-decoration: none;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    p a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive untuk layar kecil */
+    @media screen and (max-width: 480px) {
+      .container {
+        padding: 30px 10px;
+      }
+
+      .box {
+        padding: 20px;
+        margin: 10px 5px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 15%;
+      }
+
+      p a {
+        display: inline-block;
+        margin: 6px 6px 0 6px;
+        font-size: 14px;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="box">
       <h3>Portofolio</h3>
-      <img src="/assets/images/febria.webp" alt="Foto Febria Anisaningrum" width="35%">
+      <img src="/assets/images/febria.webp" alt="Foto Febria Anisaningrum" />
       <h3>Febria Anisaningrum</h3>
       <p>Belajar dan Bekerja</p>
       <p>
-      <a href="index.html">Home</a> |
-      <a href="blog">Blog</a> |
-      <a href="contact.html">Contact</a> |
-      <a href="about.html">About</a>
-    </p>
+        <a href="index.html">Home</a> |
+        <a href="blog">Blog</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About</a>
+      </p>
     </div>
   </div>
 </body>
