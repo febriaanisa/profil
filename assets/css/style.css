@@ -36,6 +36,15 @@ header {
   line-height: 1.2;
 }
 
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f3d91;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #326fdd;
+  padding-bottom: 8px;
+}
+
 /* Judul di header harus link berwarna */
 .site-title a {
   color: #0f3d91;
