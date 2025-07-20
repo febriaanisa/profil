@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mengapa Kimchi Mengeluarkan Aroma Khas?"
+description: "mengapa kimchi bisa mengeluarkan bau khas menyengat? Apakah itu berarti kimchi sudah basi? Yuk, kita bahas lebih dalam!"
 date: 2025-07-19 10:00:00 +0700
 ---
 
