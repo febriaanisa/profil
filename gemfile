@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+
+# Plugin dasar bawaan Jekyll
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+
+# Untuk syntax highlighting (opsional)
+gem "rouge"
+
+# Untuk build dan serve lokal
+group :jekyll_plugins do
+  gem "webrick" # dibutuhkan di Ruby 3.x
+end
