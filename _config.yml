@@ -2,7 +2,7 @@ title: Febria Anisaningrum
 email: febria@example.com
 description: 'Belajar dan Bekerja'
 baseurl: "/profil" # gunakan "" jika pakai root domain GitHub Pages
-url: "https://febriaanisa.github.io"
+url: "https://febriaanisa.github.io/profil"
 permalink: /:title/
 theme: minima
 plugins:
