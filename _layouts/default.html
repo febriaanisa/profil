@@ -11,13 +11,15 @@
 <body>
 
   <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a> |
-      <a href="{{ '/blog' | relative_url }}">Blog</a> |
-      <a href="{{ '/about' | relative_url }}">About</a> |
-      <a href="{{ '/contact' | relative_url }}">Contact</a>
-    </nav>
+    <div class="container">
+      <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a> |
+        <a href="{{ '/blog' | relative_url }}">Blog</a> |
+        <a href="{{ '/about' | relative_url }}">About</a> |
+        <a href="{{ '/contact' | relative_url }}">Kontak</a>
+      </nav>
+    </div>
   </header>
 
   <main>
