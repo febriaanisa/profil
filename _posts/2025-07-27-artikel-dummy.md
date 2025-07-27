@@ -45,11 +45,11 @@ def halo_nama(nama):
 
 Berikut adalah daftar kontributor fiktif dalam proyek ini:
 
-| Nama Lengkap     | Peran               | Email                  | Status     |
-|------------------|---------------------|-------------------------|------------|
-| Andi Prasetyo    | Penulis Konten      | andi@example.com        | Aktif      |
-| Rina Wulandari   | Editor              | rina@example.com        | Nonaktif   |
-| Bagus Saputra    | Desainer Grafis     | bagus@example.com       | Aktif      |
-| Dewi Anggraini   | Pengembang Web      | dewi@example.com        | Aktif      |
-| Fajar Ramadhan   | Kontributor Tamu    | fajar@example.com       | Sementara  |
+| Nama Lengkap     || Peran               || Email                   || Status     |
+|------------------||---------------------||-------------------------||------------|
+| Andi Prasetyo    || Penulis Konten      || andi@example.com        || Aktif      |
+| Rina Wulandari   || Editor              || rina@example.com        || Nonaktif   |
+| Bagus Saputra    || Desainer Grafis     || bagus@example.com       || Aktif      |
+| Dewi Anggraini   || Pengembang Web      || dewi@example.com        || Aktif      |
+| Fajar Ramadhan   || Kontributor Tamu    || fajar@example.com       || Sementara  |
 
