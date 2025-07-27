@@ -53,3 +53,12 @@ Berikut adalah daftar kontributor fiktif dalam proyek ini:
 | Dewi Anggraini   || Pengembang Web      || dewi@example.com        || Aktif      |
 | Fajar Ramadhan   || Kontributor Tamu    || fajar@example.com       || Sementara  |
 
+### Gambar Contoh
+
+Berikut ini adalah contoh gambar yang ditampilkan dalam artikel. Gambar ini hanya ilustrasi dan bisa diganti sesuai kebutuhan kontenmu.
+
+![Contoh Gambar Dummy](https://picsum.photos/800/300)
+
+Keterangan: Gambar di atas menggunakan layanan placeholder (`via.placeholder.com`) dengan ukuran 800x400 piksel. Cocok untuk menguji layout gambar dalam tema Jekyll.
+
+
