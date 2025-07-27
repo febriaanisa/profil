@@ -1,66 +1,55 @@
 ---
 layout: post
-title: "Mengapa Kimchi Mengeluarkan Aroma Khas?"
-description: "mengapa kimchi bisa mengeluarkan bau khas menyengat? Apakah itu berarti kimchi sudah basi? Yuk, kita bahas lebih dalam!"
-date: 2025-07-19 10:00:00 +0700
+title: "Artikel Dummy untuk Uji Coba"
+description: "Contoh artikel dummy dalam format markdown untuk pengujian tampilan dan struktur pada tema Jekyll."
+date: 2025-07-27 10:00:00 +0700
+categories: ["dummy", "ujicoba"]
 ---
 
-Kimchi, makanan tradisional Korea yang populer di seluruh dunia, dikenal dengan rasanya yang pedas, asam, dan tentu saja — **aroma khasnya yang menyengat**. Tapi mengapa kimchi bisa mengeluarkan bau seperti itu? Apakah itu berarti kimchi sudah basi? Yuk, kita bahas lebih dalam!
+Selamat datang di artikel dummy ini. Artikel ini digunakan untuk menguji tampilan blog Jekyll dengan berbagai elemen HTML dan markdown.
 
-![aroma kimchi]({{site.baseurl}}/assets/images/2025/07/aroma-kimchi.webp)
+## Heading Level 2
 
----
+Ini adalah paragraf biasa. Kamu bisa menambahkan **teks tebal**, *teks miring*, atau [tautan ke halaman lain](https://example.com).
 
-## 1. Proses Fermentasi Alami
+### Heading Level 3
 
-Kimchi adalah makanan fermentasi. Proses ini melibatkan **bakteri baik**, terutama *Lactobacillus*, yang secara alami mengubah gula dari sayuran menjadi **asam laktat**. Nah, fermentasi inilah yang menjadi penyebab utama timbulnya aroma kuat.
+Berikut ini adalah daftar bullet:
 
-Selama fermentasi, kimchi menghasilkan:
-- **Asam laktat** – memberi bau asam khas,
-- **Asam asetat dan butirat** – memperkuat aroma tajam,
-- **Gas karbon dioksida (CO₂)** – bisa membuat wadah menggelembung dan menyemburkan aroma saat dibuka.
+- Item pertama
+- Item kedua
+- Item ketiga
 
----
+Dan ini adalah daftar bernomor:
 
-## 2. Bahan-Bahan Beraroma Tajam
-
-Kimchi menggunakan berbagai bahan dengan aroma kuat, seperti:
-- **Bawang putih**
-- **Daun bawang**
-- **Bawang bombay**
-- **Kecap ikan atau fermentasi seafood lainnya**
-
-Semua bahan ini mengandung **senyawa sulfur**, yang menambah kompleksitas dan kekuatan aroma kimchi.
+1. Langkah pertama
+2. Langkah kedua
+3. Langkah ketiga
 
 ---
 
-## 3. Apakah Aroma Berarti Kimchi Basi?
+### Kode
 
-Tidak selalu! Aroma yang kuat justru **menunjukkan bahwa fermentasi berjalan dengan baik**. Namun, perhatikan tanda-tanda kimchi rusak:
+Berikut adalah cuplikan kode Python:
 
-❌ Bau busuk seperti bangkai atau amonia  
-❌ Muncul jamur berwarna hijau, hitam, atau oranye  
-❌ Tekstur sangat berlendir dan tidak segar  
-❌ Rasa pahit, terlalu asin, atau aneh  
+```python
+def halo_nama(nama):
+    print(f"Halo, {nama}!")
+```
 
-Jika tidak ada tanda-tanda tersebut, **kimchi kamu aman dan sehat dikonsumsi**.
+### Kutipan
 
----
+>Ini adalah kutipan. Biasanya digunakan untuk menyoroti bagian penting atau kata-kata dari tokoh terkenal.
 
-## 4. Tips Mengurangi Bau Kimchi
+### Tabel: Daftar Kontributor
 
-Kalau kamu merasa aroma kimchi terlalu tajam, berikut beberapa tipsnya:
+Berikut adalah daftar kontributor fiktif dalam proyek ini:
 
-- Simpan kimchi di **wadah kedap udara khusus**.
-- Letakkan di **lemari es bagian bawah** agar suhu stabil.
-- Kurangi sedikit **bawang putih atau ikan fermentasi** dalam resep buatan sendiri.
+| Nama Lengkap     | Peran               | Email                  | Status     |
+|------------------|---------------------|-------------------------|------------|
+| Andi Prasetyo    | Penulis Konten      | andi@example.com        | Aktif      |
+| Rina Wulandari   | Editor              | rina@example.com        | Nonaktif   |
+| Bagus Saputra    | Desainer Grafis     | bagus@example.com       | Aktif      |
+| Dewi Anggraini   | Pengembang Web      | dewi@example.com        | Aktif      |
+| Fajar Ramadhan   | Kontributor Tamu    | fajar@example.com       | Sementara  |
 
----
-
-## Kesimpulan
-
-Aroma khas kimchi adalah hasil dari perpaduan **fermentasi alami** dan **bahan-bahan beraroma kuat**. Jadi, jangan khawatir jika kimchi mengeluarkan bau menyengat — itu pertanda proses fermentasinya berjalan baik! Selamat menikmati kimchi dengan rasa dan aroma yang otentik.
-
----
-
-> Punya pengalaman unik dengan aroma kimchi buatan sendiri? Ceritakan di kolom komentar, ya!
