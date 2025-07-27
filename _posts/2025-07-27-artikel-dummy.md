@@ -10,7 +10,7 @@ Selamat datang di artikel dummy ini. Artikel ini digunakan untuk menguji tampila
 
 ## Heading Level 2
 
-Ini adalah paragraf biasa. Kamu bisa menambahkan **teks tebal**, *teks miring*, atau [tautan ke halaman lain](https://example.com).
+Ini adalah paragraf biasa. Kamu bisa menambahkan **teks tebal**, *teks miring*, atau [tautan ke halaman lain](https://febriaanisa.github.io/profil/Hallo-artikel-pertama).
 
 ### Heading Level 3
 
